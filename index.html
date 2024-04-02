@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Employee Management System</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="form_div">
-        <form action="" method="post"  id="data_form">
-        <h1>New Employees</h1>
-            <div id="input_div">
-            <div>
-                <label for="name">Enter Name</label>
-                <input type="text" id="name" name="name" >
-            </div>
-            <div>
-                <label for="profession">Enter Profession</label>
-                <input type="text" id="profession" name="profession" >
-            </div>
-            <div>
-                <label for="age">Enter Age</label>
-                <input type="number" id="age" name="age" >
-            </div>
-        
-        </div>
-        <div id="error_div">
-            
+      <form action="" method="post" id="data_form">
+        <h2>New Employees</h2>
+        <div id="input_div">
+          <div>
+            <label for="name">Enter Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="profession">Enter Profession</label>
+            <input type="text" id="profession" name="profession" />
+          </div>
+          <div>
+            <label for="age">Enter Age</label>
+            <input type="number" id="age" name="age" />
+          </div>
         </div>
 
         <div>
-            <button id="formBtn" type="submit">Add User</button>
+          <button id="formBtn" type="submit">Add User</button>
         </div>
-    </form>
+        <div id="error_div"></div>
+      </form>
     </div>
-    <div class="data_container">
-        
-    </div>
-</body>
-<script type="text/javascript" src="./script.js"></script>
+    <div class="data_container"></div>
+  </body>
+  <script type="text/javascript" src="./script.js"></script>
 </html>

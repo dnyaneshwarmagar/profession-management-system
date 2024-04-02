@@ -31,7 +31,7 @@ function submitEmployeeData(event) {
 
 function createEmployeeTable() {
     let dataContainer = document.querySelector(".data_container");
-    dataContainer.innerHTML = "<h1>Added Employees</h1>"
+    dataContainer.innerHTML = "<h2>Added Employees</h2>"
     if (employeeArray.length === 0) {
         let cardDiv = document.createElement("div");
         cardDiv.textContent = "You have 0 Employees.";
